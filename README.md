@@ -1,3 +1,5 @@
+
+
 # Old School Game
 
 A simple web-based game built with modern web technologies and deployed to **Azure Static Web Apps**.
@@ -20,5 +22,17 @@ old-school-game/
 └── README.md
 ```
 
+## Team Contributions
 
+* Azure Static Web App deployment via CLI
+* GitHub Actions pipeline
+* Azure configuration and tags
+* Frontend and game development
+* GitHub repository and game implementation
+
+## Team
+
+* [Emma]
+* [Ramya]
+* [Qian]
 
