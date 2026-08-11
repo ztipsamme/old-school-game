@@ -16,9 +16,11 @@ jobs:
           node-version: '18'
 
       - name: Install Dependencies
+        working-directory: ./frontend
         run: npm install
 
       - name: Build
+        working-directory: ./frontend
         run: npm run build
 
       - name: Deploy to Azure Static Web Apps
