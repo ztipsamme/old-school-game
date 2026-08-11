@@ -13,14 +13,14 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '20'
 
       - name: Install Dependencies
-        working-directory: /frontend
+        working-directory: ./frontend
         run: npm install
 
       - name: Build
-        working-directory: /frontend
+        working-directory: ./frontend
         run: npm run build
 
       - name: Deploy to Azure Static Web Apps
